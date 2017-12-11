@@ -1,0 +1,22 @@
+{
+  "name": "les10_hw",
+  "version": "1.0.0",
+  "description": "codingbootcamp.ru task for 10 lesson: JavaScript basics ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/klishevich/les10_hw.git"
+  },
+  "author": "klishevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klishevich/les10_hw/issues"
+  },
+  "homepage": "https://github.com/klishevich/les10_hw#readme",
+  "dependencies": {
+    "mathjs": "^3.17.0"
+  }
+}
