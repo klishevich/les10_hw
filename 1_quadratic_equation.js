@@ -11,10 +11,8 @@
 // первый корень равен (-b - квадратный_корень(D))/(2*a)
 // второй корень равен (-b + квадратный_корень(D))/(2*a)
 
-var math = require('mathjs');
-
 // пример считаем корень
-var example_sqrt = math.sqrt(9);
+var example_sqrt = Math.sqrt(9);
 console.log('example_sqrt', example_sqrt);
 
 // пример if/else

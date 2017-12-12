@@ -3,10 +3,9 @@
 ## Инструкция
 
 1. `git clone`
-2. перейдите в папке и выполните `npm i`
-3. выполняйте задания из файлов: 1_quadratic_equation.js, 2.., 3..
-4. проверяем что работает `node 1_quadratic_equation.js`
-5. делаем PR
+1. выполняйте задания из файлов: 1_quadratic_equation.js, 2.., 3..
+1. проверяем что работает `node 1_quadratic_equation.js`
+1. делаем PR
 
 ### Задание 1
 
