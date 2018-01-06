@@ -8,7 +8,7 @@ for (var i = 0; i < ar_length; i++) {
   console.log(i, ar[i]);
 }
 
-var rand_number = Math.random(0, 100);
+var rand_number = Math.random();
 console.log('rand_number', rand_number); 
 
 
