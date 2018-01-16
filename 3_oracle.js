@@ -4,13 +4,12 @@ var ar = ['Совершенно точно', 'Определенно', 'Несо
 
 var ar_length = ar.length;
 
-for (var i = 0; i < ar_length; i++) {
-  console.log(i, ar[i]);
-}
+//for (var i = 0; i < ar_length; i++) {
+//  console.log(i, ar[i]);
+//}
 
-var rand_number = Math.random();
-console.log('rand_number', rand_number); 
+var rand_number = Math.random()*(ar_length);
+var round = Math.round(rand_number); 
 
-
-var round = Math.round(3.2); 
-console.log('round', round);
+console.log("На улице идет дождь?");
+console.log(ar[round])
