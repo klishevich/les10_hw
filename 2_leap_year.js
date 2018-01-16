@@ -4,13 +4,18 @@
 // И функцию, которая выводит все високосные годы в 21 веке
 
 function leap_year(year) {
-  console.log('тут выводим какой год, високосный или нет');
+	if (year%4) {var answer = false}
+		else {answer = true};
+	return year +" год високосный? Ответ: "+ answer;
 }
 
 function all_leap_years() {
-  console.log('тут выводим все високосные года');
-} 
+	var j=1;
+	for (var i=2000; i<3000; i++){ 
+			if (i%4==0) {console.log(`${j++} високосный год в 21 веке: ${i}`)}
+		}
+	return;
+}
 
-leap_year(2017) // тут мы меняем год и в зависимости от выбранного года должно выводиться true или false
-
-all_leap_years() // результат должны быть все високосные года в 21 веке
+console.log(leap_year(2017));
+all_leap_years()
